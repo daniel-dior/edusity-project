@@ -20,7 +20,7 @@ const Contact = () => {
       const data = await response.json();
   
       if (data.success) {
-        setResult("Email Submitted Successfully");
+        setResult("send successfully");
         event.target.reset();
       } else {
         console.log("Error", data);

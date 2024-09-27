@@ -37,4 +37,4 @@ const toggleMenu = ()=> {
   )
 }
 
-export default Navbar
+export default Navbar;
